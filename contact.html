@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contact_style.css">
+</head>
+<body>
+    <div class="contact-container">
+        <h1>Contact Us</h1>
+        <p>If you have any questions, feel free to reach out to us!</p>
+        <div class="contact-methods">
+            <div class="contact-method">
+                <h2>Email</h2>
+                <p><a href="220120025@iitdh.ac.in">E-mail</a></p>
+            </div>
+            <div class="contact-method">
+                <h2>Phone</h2>
+                <p><a href="tel:+1234567890">9303384464</a></p>
+            </div>
+            <div class="contact-method">
+                <h2>Follow Us</h2>
+                <p>
+        
+                    <a href="#">Github</a> | 
+                    <a href="#">Linkedin</a> | 
+                </p>
+            </div>
+        </div>
+        <form id="contact-form">
+            <h2>Send us a message</h2>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <script src="contact_script.js"></script>
+</body>
+</html>
